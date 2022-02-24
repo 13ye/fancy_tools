@@ -2,6 +2,8 @@
 
 # default user/pw is admin/admin
 FILEBROWSER_HOME=/home/filebrowser
+mkdir -p $FILEBROWSER_HOME
+chmod 777 $FILEBROWSER_HOME
 
 docker run -itd \
     --name filebrowser \
