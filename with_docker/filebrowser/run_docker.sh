@@ -14,4 +14,3 @@ docker run -itd \
     filebrowser/filebrowser:v2.21.1
 
     #-v $FILEBROWSER_HOME/.filebrowser.json:/.filebrowser.json \
-
