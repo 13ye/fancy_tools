@@ -9,4 +9,5 @@ docker run -itd \
     --name trilium_doc \
     -p 27666:8080 \
     -v $TRILIUMDATAPATH:/home/node/trilium-data \
-    zadam/trilium:0.51.2
+    --restart=always \
+    zadam/trilium:0.53.2
